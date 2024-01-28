@@ -4,8 +4,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Sobre mi";
 
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
+  firstName: "Enrique",
+  country: "España",
   occupation: "Escritor técnico",
   hobbies: ["fotografia", "observación de aves", "peñarol"],
 };
@@ -27,67 +27,7 @@ const fontWeight = "bold";
 const textCase = "uppercase";
 ---
 
-<!-- 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-    <style define:vars={{skillColor,fontWeight,textCase}}>
-      h1 {
-        color: purple;
-        font-size: 4rem;
-      }
-      .skill {
-        color: green;
-        color: var(--skillColor);
-        font-weight: var(--fontWeight);
-        text-transform: var(--textCase); 
-      }
-    </style>
-  </head>
-  <body>
-    <Header />
-  
-    <h1>Sobre mi</h1>
-    <p>He aquí algunos datos sobre mí:</p>
-    <ul>
-      <li>Me llamo {identity.firstName}.</li>
-      <li>Vivo en {identity.country} y trabajo como {identity.occupation}.</li>
-      {
-        identity.hobbies.length >= 2 && (
-          <li>
-            Dos de mis aficiones son: {identity.hobbies[0]} y{" "}
-            {identity.hobbies[1]}
-          </li>
-        )
-      }
-    </ul>
-    <p>Mis habilidades son:</p>
-    <ul>
-      {skills.map((skill) => <li class="skill">{skill}</li>)}
-      {happy && <p>¡Estoy feliz de aprender Astro!</p>}
-
-      {finished && <p>¡He terminado este tutorial!</p>}
-
-      {
-        goal === 3 ? (
-          <p>Mi objetivo es terminar en 3 días.</p>
-        ) : (
-          <p>Mi objetivo no son 3 días.</p>
-        )
-      }
-    </ul>
-    <Footer />
-    <script>
-    import "../scripts/menu.js";
-  </script>
-  </body>
-</html>
-
-      -->
+ 
 <BaseLayout pageTitle={pageTitle}>
   <style define:vars={{ skillColor, fontWeight, textCase }}>    
     .skill {

@@ -1,9 +1,9 @@
 ---
 layout: '../../layouts/MarkdownPostLayout.astro'
-title: 'Blog con Astro'
+title: 'Blog con Astro 2ª parte'
 pubDate: 2022-08-01
-description: 'Este es la primera publicación de mi nuevo blog Astro.'
-author: 'Alumno de Astro'
+description: 'Segunda publicación de mi nuevo blog Astro.'
+author: 'Enrique'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'El logotipo completo de Astro.'
