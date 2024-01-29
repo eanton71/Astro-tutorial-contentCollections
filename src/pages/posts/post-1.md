@@ -7,10 +7,12 @@ author: 'Enrique'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'El logotipo completo de Astro.'
-tags: ["astro", "bloguear", "aprender", "java"]
+tags: ["astro", "blog", "aprender", "java"]
 ---
- 
-¡Bienvenido a mi _nuevo blog_ sobre el aprendizaje de Astro! Aquí, voy a compartir mi viaje de aprendizaje a medida que construyo un nuevo sitio web.
+
+
+
+¡Bienvenido a mi **nuevo blog** sobre el aprendizaje de Astro! Aquí, voy a compartir mi viaje de aprendizaje a medida que construyo un nuevo sitio web.
 
 ## Lo que he conseguido
 
