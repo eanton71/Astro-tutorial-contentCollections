@@ -12,6 +12,7 @@ tags: ["astro", "blog", "aprender", "java"]
 
 
 
+
 ¡Bienvenido a mi **nuevo blog** sobre el aprendizaje de Astro! Aquí, voy a compartir mi viaje de aprendizaje a medida que construyo un nuevo sitio web.
 
 ## Lo que he conseguido
