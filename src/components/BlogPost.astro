@@ -1,4 +1,13 @@
 ---
 const { title, url } = Astro.props;
 ---
+ 
 <li><a href={url}>{title}</a></li>
+ <style>
+    li{
+        border: 1px dotted gray;
+        background-color:   #fff;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+ </style>
