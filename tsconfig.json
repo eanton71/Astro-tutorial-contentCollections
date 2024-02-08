@@ -6,7 +6,7 @@
     "jsxImportSource": "preact",
      "moduleResolution": "node",
   }
-}*/
+}
 //   
 // No se puede especificar la opción "--resolveJsonModule" sin la estrategia de resolución de módulos "node".
 //https://onebite.dev/how-to-resolve-option-resolvejsonmodule-cannot-be-specified-without-node-module-resolution-strategyts/
@@ -18,5 +18,13 @@
     "jsxImportSource": "preact",
     "moduleResolution": "node",
     "resolveJsonModule": true
+  }
+}*/
+{
+  // Nota: No se necesita ningún cambio si usas "astro/tsconfigs/strict" o "astro/tsconfigs/strictest"
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "allowJs": true
   }
 }
