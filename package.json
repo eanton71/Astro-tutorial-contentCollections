@@ -14,7 +14,11 @@
     "@astrojs/preact": "^3.1.0",
     "@astrojs/rss": "^4.0.5",
     "astro": "^4.3.5",
+    "esbuild": "^0.20.0",
+    "mdast-util-phrasing": "^4.1.0",
     "preact": "^10.19.4",
-    "typescript": "^5.3.3"
+    "shikiji-core": "^0.10.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.1"
   }
 }
